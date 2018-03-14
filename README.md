@@ -1,4 +1,4 @@
-# BFG test task
+# Covergame test task
 
 в ./dist/index.html уже все скомпилировано на продакшн
 
