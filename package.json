@@ -5,9 +5,10 @@
     "main": "App.jsx",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "webpack --mode production",
+        "build": "webpack --mode production --optimize-minimize",
         "dev": "webpack --mode development",
-        "watch": "webpack --mode development --watch"
+        "watch": "webpack --mode development --watch",
+        "serv": "webpack-dev-server --hot --inline --mode development"
     },
     "author": "Eugene Dryahlov egenius333@gmail.com",
     "license": "ISC",
@@ -33,6 +34,7 @@
         "source-map-loader": "^0.2.3",
         "style-loader": "^0.20.2",
         "webpack": "^4.0.1",
-        "webpack-cli": "^2.0.9"
+        "webpack-cli": "^2.0.9",
+        "webpack-dev-server": "^3.1.1"
     }
 }
